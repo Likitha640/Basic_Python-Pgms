@@ -48,7 +48,9 @@ if "good" in str:
 if "bad" not in str:
   print("No, 'bad' is NOT present.")
 
-
+#Strings with Array
+x = "Hello, World!"
+print(x[1])
 
 
 
