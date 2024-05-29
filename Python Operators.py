@@ -42,3 +42,6 @@ print(not(x < 5 and x < 10))
 print(x is y)
 print(x is not y)
 
+#Python Operators
+print((6 + 3) - (6 + 3))
+print(100 + 5 * 3)
