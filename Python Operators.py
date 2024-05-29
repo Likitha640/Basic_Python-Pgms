@@ -33,5 +33,12 @@ print(x)
 x //=y
 print(y)
 
+#Python Logical Operators
+print(x < 5 and x<10)
+print(x < 1 or x < 2)
+print(not(x < 5 and x < 10))
 
+#Python Identify Operator
+print(x is y)
+print(x is not y)
 
