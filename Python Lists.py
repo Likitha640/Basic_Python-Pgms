@@ -46,3 +46,13 @@ print(list5)
 #Sort
 list6 = [x for x in fruits if "a" in x]
 print(list6)
+
+#Sort List Alphanumerically
+list7 = ["AA", "XX", "BB", "YY", "CC"]
+list7.sort()
+print(list7)
+
+list8 = [99, 100, 50, 65, 82, 23]
+list8.sort()
+print(list8)
+
