@@ -1,58 +1,59 @@
-#Add Lists Items
+#Python Lists
 list1 = ["python", "java", "C#"]
-list2 = ("C programming", "HTML")
-list1.extend(list2)
 print(list1)
 
-#Remove items
-list1.remove("java")
-print(list1)
+#Duplicate
+list2 = ["python", "java", "C#", "python", "java"]
+print(list2)
 
-list1.pop(1)
-print(list1)
+#length of the string
+print(len(list1))
 
-list1.pop()
-print(list1)
-
-list1.clear()
-print(list1)
-
-#Loop Lists
+#List with Data types
 list3 = ["apple", "banana", "cherry"]
-for x in list3:
-  print(x)
-
-#Loop with range
-for i in range(len(list3)):
-  print(list3[i])
-
-#While Loop
-list4 = ["AA","BB","CC","DD","EE"]
-i = 0
-while i < len(list4):
-  print(list4[i])
-  i = i + 1
-
-#List Comprehension
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-list5 = []
-
-for x in fruits:
-  if "a" in x:
-      list5.append(x)
-
+list4 = [6, 30, 16, 21, 13]
+list5 = [True, False, False]
+print(list3)
+print(list4)
 print(list5)
 
-#Sort
-list6 = [x for x in fruits if "a" in x]
+list6 = ["abc", 6, True, 30, "good"]
 print(list6)
+print(len(list6))
+print(type(list6))
 
-#Sort List Alphanumerically
-list7 = ["AA", "XX", "BB", "YY", "CC"]
-list7.sort()
+#list() Constructor
+list7 = list(("apple", "banana", "cherry","strawberry","orange","mango","grapes")) 
 print(list7)
 
-list8 = [99, 100, 50, 65, 82, 23]
-list8.sort()
+#Access List Items
+list8=["apple", "banana", "cherry","strawberry","orange","mango","grapes"]
+print(list8[1])
+print(list8[-1])
+print(list8[2:5])
+print(list8[-4:-3])
+print(list8[:4])
+print(list8[2:])
+if "apple" in list8:
+  print("Yes, 'apple' is in the fruits list")
+
+list8[1] = "blackcurrant"
 print(list8)
 
+list8[1:2] = ["kiwi", "watermelon"]
+print(list8)
+
+list9 = ["ABC", "LVR", "PQR"]
+list9.insert(2, "KIM")
+print(list9)
+
+list9.append("KTH")
+print(list9)
+
+list9.insert(1, "VLI")
+print(list9)
+
+list10=["AA","BB","CC"]
+list11=["XX","YY","ZZ"]
+list10.extend(list11)
+print(list10)

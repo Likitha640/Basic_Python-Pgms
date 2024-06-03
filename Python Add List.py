@@ -55,4 +55,3 @@ print(list7)
 list8 = [99, 100, 50, 65, 82, 23]
 list8.sort()
 print(list8)
-
