@@ -5,7 +5,7 @@ print(len(tuple1))
 tuple2 = ("apple", "banana", "cherry", "apple", "cherry")
 print(tuple2)
 
-#Create Tuple With One Item
+#Create Tuples With One Item
 tuple3 = ("apple",)
 print(type(tuple3))
 
@@ -25,3 +25,5 @@ print(tuple7[1])
 print(tuple7[-1])
 print(tuple7[2:5])
 print(tuple7[-2:-1])
+print(tuple7[2:])
+print(tuple7[:4])
