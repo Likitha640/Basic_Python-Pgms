@@ -30,3 +30,6 @@ print(tuple7[:4])
 
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
