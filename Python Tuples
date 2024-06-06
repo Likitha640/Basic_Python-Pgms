@@ -28,3 +28,5 @@ print(tuple7[-2:-1])
 print(tuple7[2:])
 print(tuple7[:4])
 
+tuple1 = ("apple", "banana", "cherry")
+print(tuple1[1])
