@@ -39,3 +39,21 @@ x3 = list(x1)
 x3.append("ML")
 x3 = tuple(x3)
 print(x3)
+
+#Unpack Tuples
+colors = ("C1", "C2", "C3")
+(green, yellow, red) = colors
+
+print(green)
+print(yellow)
+print(red)
+
+(green, yellow, *red) = colors
+print(green)
+print(yellow)
+print(red)
+
+(green, *tropic, red) = colors
+print(green)
+print(tropic)
+print(red)
