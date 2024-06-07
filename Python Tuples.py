@@ -57,3 +57,20 @@ print(red)
 print(green)
 print(tropic)
 print(red)
+
+#Loop Through Tuples
+tuple1 = ("JAVA", "C++", "Python")
+for x4 in tuple1:
+  print(x4)
+
+#Loop Through Index Numbers
+for i in range(len(tuple1)):
+  print(tuple1[i])
+
+#Using while loop
+i1 = 0
+while i1 < len(tuple1):
+  print(tuple1[i1])
+  i1 = i1 + 1
+
+#
