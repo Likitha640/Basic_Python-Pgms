@@ -73,4 +73,13 @@ while i1 < len(tuple1):
   print(tuple1[i1])
   i1 = i1 + 1
 
-#
+#Join Tuples
+T1 = ("a", "b" , "c")
+T2 = (1, 2, 3)
+T3 = T1 + T2
+print(T3)
+
+fruits = ("ABC", "EFG", "XYZ")
+T4 = fruits * 2
+print(T4)
+
